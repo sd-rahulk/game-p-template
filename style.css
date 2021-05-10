@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+body{
+  background:#111;
+  background-image: url("https://i.gifer.com/8WbS.gif");
+}
+p{
+ color: white;
+ text-align: center;
+ font-size: x-large;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #111;
+  background: transparent;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: greenyellow;
+  border-radius: 25px;
+}
+
+.google{
+    position: absolute;
+    top: 7px;
+    right: 16px;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    margin: 4px 2px;
+    background: transparent;
+    color: white;
+}
+
+.get-started{
+  float: none;
+  position: absolute;
+  top: 60%;
+  left: 25%;
+}
+
+#js{
+  border-radius: 5px 20px 5px;
+  background: transparent;
+  font-size: 30px;
+  color: white;
+}
+
+h1{
+  color: rgb(255, 255, 255);
+  font-size: xx-large;
+  text-align: center;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+  font-family: 'IBM Plex Serif', serif;
+}
+
+h3{
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  text-align: center;
+  position: fixed;
+  top: 48%;
+  left: 45%;
+  font-family: 'IBM Plex Serif', serif;
+}
