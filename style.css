@@ -3,6 +3,9 @@
 body{
   background:#111;
   background-image: url("https://i.gifer.com/8WbS.gif");
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 p{
  color: white;
@@ -45,21 +48,23 @@ li a:hover:not(.active) {
     padding: 10px;
     margin: 4px 2px;
     background: transparent;
+    border: none;
     color: white;
 }
 
 .get-started{
   float: none;
   position: absolute;
-  top: 60%;
-  left: 25%;
+  top: 70%;
+  left: 5%;
 }
 
 #js{
-  border-radius: 5px 20px 5px;
-  background: transparent;
-  font-size: 30px;
+  border-radius: 20px;
+  background: blue;
+  font-size: 15px;
   color: white;
+  border: none;
 }
 
 h1{
@@ -67,8 +72,8 @@ h1{
   font-size: xx-large;
   text-align: center;
   position: fixed;
-  top: 40%;
-  left: 40%;
+  top: 52%;
+  left: 5%;
   font-family: 'IBM Plex Serif', serif;
 }
 
@@ -77,7 +82,81 @@ h3{
   font-size: x-large;
   text-align: center;
   position: fixed;
-  top: 48%;
-  left: 45%;
+  top: 60%;
+  left: 5%;
   font-family: 'IBM Plex Serif', serif;
+}
+
+#h-button{
+  background: white;
+  color: black;
+  border-radius: 50%;
+  text-align: center;
+}
+
+div.help{
+  bottom: 10px;
+  position: fixed;
+  left: 95%;
+}
+
+#load{
+  border-radius: 20px;
+  background: transparent;
+  font-size: 15px;
+  color: white;
+  border: none; 
+}
+
+h2{
+  color: white;
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}
 }
