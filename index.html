@@ -2,9 +2,12 @@
     <head>
         <title>sd game dev</title>
         <link rel = "icon" href = "https://upload.wikimedia.org/wikipedia/commons/2/27/Game_Developers_Conference_logo.svg">
-        <link rel = "stylesheet" href = "style.css">
+        <link rel = "stylesheet" href = "./css/style.css">
         <link rel = "stylesheet" href = "https://www.w3schools.com/w3css/4/w3.css">
-        <script src = "index.js"></script>
+        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src = "./js/functions.js"></script>
+        <script src = "./js/index.js"></script>
     </head>
     <body>
         <div class = "nav">
@@ -16,20 +19,24 @@
                 <li><a class = "help" href = "help.html">Help</a></li>
             </ul>
         </div>
-        <div id="myBar" class="w3-green" style="height:2px;width:0"></div>
+        <div id = "myBar" class = "w3-green" style = "height:2px;width:0"></div>
 
         <div class = "button">
             <button class = "google">Login/ Sign in</button>
         </div>
         <div class = "get-started">
-            <button class = "w3-button-w3-green" onclick = "move()" id = "js">Get started</button> 
+            <button class = "w3-button-w3-green" onclick = "move()" id = "js">Get started</button>
+            <button class = "w3-button-w3-green" onclick = "load()" id = "load">Try for free</button>  
         </div>
         <div class = "w3-container w3-center w3-animate-top">
-            <p class = "para"><b>Welcome to our game developing  group!</b></p>
+            <p class = "para"><h2>Welcome to our game developing  group!</h2></p>
         </div>
         <div class = "greetings">
             <h1><strong>Welcome to SDGD group</strong></h1>
             <h3><strong>A place where you experience the games</strong></h3>
+        </div>
+        <div class = "help">
+            <button class = "w3-button w3-xlarge w3-circle" id = "h-button"><i class = "fa fa-yelp" aria-hidden = "true"></i></button>
         </div>
     </body>
 </html>
